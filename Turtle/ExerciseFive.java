@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 
-public class ExerciseTwo extends PApplet {
-  public static Turtle myrtle;
+public class ExerciseFive extends PApplet {
+  public static Turtle yertle;
 
   @Override
   public void setup() {
@@ -9,13 +9,13 @@ public class ExerciseTwo extends PApplet {
     noLoop();
     background(255); // set the background color
 
-    myrtle = new Turtle(this);
+    yertle = new Turtle(this); // create a new turtle
 
-    myrtle.setColor(color(255, 0, 255));
+    yertle.setThickness(5);
 
-    for (int count = 0; count < 3; count++) { // Makes Equilateral Triangle
-      myrtle.forward(100);
-      myrtle.turnRight(120);
+    for (int counter = 0; counter < 8; counter++) { // Makes Octagon
+      yertle.forward(50);
+      yertle.turnRight(45);
     }
   }
 
