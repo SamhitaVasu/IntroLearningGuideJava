@@ -22,9 +22,9 @@ public class ExerciseSeven extends PApplet {
     yertle.pendown();
 
     for (int counter = 0; counter < 8; counter++) { // Makes Octagon, not whole
-                                                    // thing will show because
-                                                    // yertle starts at top
-                                                    // right corner
+      // thing will show because
+      // yertle starts at top
+      // right corner
       yertle.forward(10);
       yertle.penup(); // .penup() and .pendown() make octagon dashed
       yertle.forward(10);
@@ -39,6 +39,6 @@ public class ExerciseSeven extends PApplet {
   }
 
   public static void main(String[] args) {
-    PApplet.main(new String[] { "Main" });
+    PApplet.main(new String[] { "ExerciseSeven" });
   }
 }

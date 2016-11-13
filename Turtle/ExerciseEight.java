@@ -56,6 +56,6 @@ public class ExerciseEight extends PApplet {
   }
 
   public static void main(String[] args) {
-    PApplet.main(new String[] { "Main" });
+    PApplet.main(new String[] { "ExerciseEight" });
   }
 }
