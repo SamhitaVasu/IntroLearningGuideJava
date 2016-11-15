@@ -2,6 +2,7 @@ public class Circle {
   int radius, centerXCoord, centerYCoord;
 
   // Set radius and center when creating object
+
   Circle(int radius, int centerXCoord, int centerYCoord) {
     this.radius = radius;
     this.centerXCoord = centerXCoord;
